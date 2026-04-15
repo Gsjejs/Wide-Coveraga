@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.8px;
+    color: #17233d;
+    margin-right: 32px;
+
+
+}
+
+.button-header {
+    width: 124px;
+    height: 51px;
+    color: #ffffff;
+    background-color: #6FBF44;
+    border: 1px solid #4cb538;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.imagen-logo {
+    margin-top: 163px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+
+div {
+
+    display: inline-block;
+    margin-left: 84px;
+    width: 493px;
+
+
+    h1 {
+        color: #161A49;
+        font-weight: 700;
+        font-size: 62px;
+        line-height: 82px;
+        letter-spacing: 0.6px;
+
+    }
+
+    p {
+        color: #4B505A;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        margin-top: 47px;
+        margin-bottom: 57px;
+    }
+
+    .button-main {
+        color: #6FBF44;
+        font-weight: 500;
+        background: transparent;
+        font-size: 18px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    
+       
+
+    .text {
+        display: none;
+    }
+
+    .imagen-logo{
+        display: block;
+        width: 100vh;
+        padding: 50%;
+        position: absolute;
+        top: 800px;
+        margin: auto;
+    }
+
+    div{
+        text-align: center;
+        width: 100vh;
+        display: block;
+        margin-left: 0px;
+
+    }
+
+    h1{
+        font-size: 30px;
+        line-height: 30px;
+        margin: 0P 66px 0 66px
+        
+    }
+
+    p{
+        
+        margin: 29px auto 26px auto;
+    }
+
+    .button-header{
+        margin: 17px 15px 76px 600px;
+    }
